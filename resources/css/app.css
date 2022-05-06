@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+/* typography complete */
+@layer base {
+    h1 {
+        @apply text-4xl font-bold text-gray-700 font-sans ;
+    }
+
+    h2 {
+        @apply text-3xl font-bold text-gray-700 font-sans;
+    }
+
+    h3 {
+        @apply text-2xl font-bold text-gray-700 font-sans;
+    }
+
+    h4 {
+        @apply text-xl font-bold text-gray-700 font-sans;
+    }
+
+    h5 {
+        @apply text-lg font-bold text-gray-700 font-sans;
+    }
+
+    h6 {
+        @apply font-bold text-gray-700 font-sans;
+    }
+
+    p {
+        @apply text-gray-700 text-base;
+    }
+
+    small {
+        @apply text-gray-700 text-sm block;
+    }
+
+    .typography h4 {
+        @apply mb-4;
+    }
+
+    .typography p {
+        @apply mb-4;
+    }
+
+    .typography small {
+        @apply mb-4;
+    }
+
+    button {
+        @apply font-bold;
+    }
+
+    input {
+        @apply font-medium;
+    }
+}
